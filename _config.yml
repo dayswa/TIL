@@ -1,26 +1,26 @@
 
 # SEO settings
-title: Simplest
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/simplest"
-# baseurl: null
+title: Today I Learned - Codinfox
+stylished_title: TodayI<span>Learned</span>
+description: "Snippets on what I learned today."
+keywords: "TIL, web, coding, machine learning, computer vision, neuroscience, math"
+url: http://codinfox.github.io
+baseurl: "/TIL"
 
-google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/simplest
-disqus_shortname: "fernandomoreira"
+google_analytics: UA-50842645-1
+repo: https://github.com/codinfox/TIL
+disqus_shortname: "codinfox"
 
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : pygments
 
-paginate: 4
+paginate: 5
 paginate_path: "/page/:num/"
 comments: true
 
-source: source
+#source: source
 destination: _site
 
 # Sass configuration
@@ -30,31 +30,22 @@ sass:
 
 # Author settings
 author:
-  name     : Fernando Moreira
-  job      : Frontend Engineer
-  bio      : "Enthusiast performance, responsive design and usability, always looking for the best project and good coffee."
-  thumb    : /images/author.jpg
-  email    : nandomoreira.me@gmail.com
-  url      : http://nandomoreira.me
-  github   : http://github.com/nandomoreirame
-  twitter  : http://twitter.com/nandomoreirame
-  facebook : http://facebook.com/fernando.dev
-  linkedin : http://linkedin.com/in/nandomoreirame
+  name     : Codinfox
+  thumb    : https://en.gravatar.com/userimage/42626876/ff31b74f207c61cc9d2d1d9196fd0080.jpg?size=120
+  email    : li.zhihao@outlook.com
+  url      : http://codinfox.github.io
+  github   : http://github.com/codinfox
+#  twitter  : http://twitter.com/nandomoreirame
+#  facebook : http://facebook.com/fernando.dev
+  linkedin : http://linkedin.com/in/lizhihao
 
 # social settings
-og_locale: "pt_BR"
-twitter_card: "summary_large_image"
-twitter_site: "@nandomoreirame"
+# og_locale: "pt_BR"
+# twitter_card: "summary_large_image"
+# twitter_site: "@nandomoreirame"
 
 gems:
   - bourbon
   - jekyll-paginate
-
-# navbar pages
-navbar:
-  - slug : about
-    title: About
-  - slug : blog
-    title: Blog
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
