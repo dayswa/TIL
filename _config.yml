@@ -5,7 +5,7 @@ stylished_title: TodayI<span>Learned</span>
 description: "Snippets on what I learned today."
 keywords: "TIL, web, coding, machine learning, computer vision, neuroscience, math"
 url: http://codinfox.github.io
-baseurl: "/TIL"
+baseurl: ""
 
 google_analytics: UA-50842645-1
 repo: https://github.com/codinfox/TIL
