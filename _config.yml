@@ -8,7 +8,6 @@ url: http://codinfox.github.io
 baseurl: ""
 
 google_analytics: UA-50842645-1
-repo: https://github.com/codinfox/TIL
 disqus_shortname: "codinfox"
 
 # Build settings
@@ -43,6 +42,11 @@ author:
 # og_locale: "pt_BR"
 # twitter_card: "summary_large_image"
 # twitter_site: "@nandomoreirame"
+
+project:
+    repo: https://github.com/codinfox/TIL
+    name: TIL
+    author: codinfox
 
 gems:
   #- bourbon
