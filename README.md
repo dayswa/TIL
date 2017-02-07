@@ -2,7 +2,7 @@
 
 > Today I Learned
 
-I got this idea from a very popular project [TIL](https://github.com/jbranchaud/til). It is *soooo true* that many of things I learned are too short to warrant a blog (that's part of the reasons why I don't update my blog for quite a long while). However, it is really necessary to write things down, because I always find m yself google the same things again and again.  
+I's got this idea from a very popular project [TIL](https://github.com/jbranchaud/til). It is *soooo true* that many of things I learned are too short to warrant a blog (that's part of the reasons why I don't update my blog for quite a long while). However, it is really necessary to write things down, because I always find m yself google the same things again and again.  
 
 Unlike the original TIL project, which focus more on the languages and technologies, my TILs may contain some math equations, which makes pure Github Markdown insufficient. Therefore, I setup this website. All the snippets will go into `_posts`, and will be properly tagged. People who are interested can go to <http://codinfox.github.io/TIL/> to see the snippets.
 
